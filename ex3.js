@@ -16,6 +16,8 @@
 
  /**
   * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+  * 
+  * Porque no hemos definido cuando debe terminar el bucle, y no hay más posiciones más allá del ultimo string "Estrella", por eso como ultimo valor nos devuelve "undefined" y se termina el bucle.
   */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
